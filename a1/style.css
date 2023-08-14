@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(210, 215, 71);
+ }
+
+@font-face {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    src: url(impact.ttf);
+ }
+        
+#one {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.textbox {
+    font-size: 25px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    width: 550px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(239, 239, 239);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ }
+
