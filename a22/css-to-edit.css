@@ -1,0 +1,32 @@
+/* original CSS */
+
+/* add your own CSS here*/
+
+/* example of button being styled using the selectors assigned to it in the script.js file */
+
+.buttons {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2.5px;
+}
+
+/* style the buttons with class .buttons on hover */
+
+#save-button {
+    margin: 10px 0; 
+    padding: 5px 10px; 
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 2.5px;
+}
+
+#save-button:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+
+/* use your own selectors [ids(#) and classes(.) for styling the input elements created in p5]  */
