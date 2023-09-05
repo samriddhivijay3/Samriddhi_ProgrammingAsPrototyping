@@ -1,0 +1,110 @@
+/* Overall / Resets --- DO NOT EDIT THIS SECTION ---------------------------- */
+
+html  {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-size: 14px;
+}
+
+body  {
+  margin: 0;
+  padding: 0;
+  height: 100%;   
+  width: 100%;     
+}
+
+canvas {
+  display: block;
+}
+
+*   { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(68, 108, 55);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Header ------------------------------------------------ */
+
+header {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  background-color: rgb(255, 239, 138);
+  border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+/*  Main Container ------------------------------------------------ */
+
+#main-container {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+}
+
+/*  Column One --- Container for Controls -------------------- */
+
+#column-one {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(209, 204, 68);
+  border-right: 3px solid rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*  Column Two --- Container for Canvas -------------------- */
+
+#column-two {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(68, 108, 55);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start; 
+  padding: 20px; 
+}
+
+.Radio {
+  margin-bottom: 20px; 
+  margin-right: 10px; 
+  color: rgb(209, 204, 68);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display:flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+.Dropdown {
+  margin-bottom: 20px; 
+  margin-right: 10px; 
+}
+.Sliders {
+  margin-top: 1px;
+  margin-bottom: 15px; 
+  margin-right: 10px; 
+  width: 50%;
+  
+}
+.Buttons {
+  margin-bottom: 20px; 
+  margin-right: 10px; 
+  width: 50%;
+  height: 50%;
+}
+
+.LabelText {
+color:rgb(255, 239, 138);
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+}
